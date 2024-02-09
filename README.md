@@ -20,5 +20,12 @@
 - Performed Lag Analysis through autocorrelation plots
 - Engineered features to include lag data up to five days
 - Trained Random Forest and XGBoost Models to predict on the test data
-- Extrapolated future stock closing prices 
+- Extrapolated future stock closing prices
+
+### Blackjack Reinforcement Learning Agent
+**Tags: Reinforcement Learning, PyTorch, Deep-Q Learning**
+- Created a custom environment to simulate the backjack card game that would return the state and reward values
+- Created a deep learning model that would take the game state as input and output an action ("Hit", "Stand")
+- Experimented with exploration vs. exploitation to allow the model to maximize rewards while also finding new strategies through random actions
+- Plotted the results in real-time to show the models score over the course of thousands of games
 
