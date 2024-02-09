@@ -47,8 +47,27 @@
 
 ### Vehicle Damage Classification
 **Tags: Deep Learning, Data Visualization, OpenCV, PyTorch, Multiclass Image Classification, Transfer Learning**
-- Utilized VGG16 pretrained model and fine tuned it to classift different types of car damage from images (crack, scratch, flat tire, dent, shattered glass, broken lamp)
+- Utilized VGG16 pretrained model and fine tuned it to classify different types of car damage from images (crack, scratch, flat tire, dent, shattered glass, broken lamp)
 - Utilized Early Stopping and a Learning Rate Scheduler to prevent overfitting
 - Achieved 0.95 accuracy on validation dataset
 - Evaluated the model by plotting the loss, accuracy, and confusion matrix
 - Made predictions on sample images
+
+### Skin Cancer Segmentation
+**Tags: Deep Learning, PyTorch, Binary Image Segmentation, Albumentations, Data Visualization**
+- Created a model to segment skin cancers from images and create a mask to show the area of the cancer
+- Utilized a U-Net model from scratch to take an RGB image as input and output a black and white mask (cancer in the white)
+- Utilized Data Augmentation on the images and corresponding masks using albumentations to prevent overfitting
+- Utilized Early Stopping and a Learning Rate Scheduler to prevent overfitting
+- Achieved 0.96 pixel accuracy on the validation dataset
+- Evaluated the model by loss and pixel accuracy
+- Plotted predicted masks on the test images and compared to the ground truth
+
+### Road Segmentation 
+**Tags: Deep Learning, PyTorch, Multiclass Image Segmentation, Transfer Learning**
+- Utilized a pretrained U-Net model and fine tuned it to segment an image of a road into the background, road signs, cars, markings, and road surface
+- Created a dictionary to map the RGB pixel values into different class for training and convert the classes of each pixel into RGB values for plotting
+- Utilized DiceLoss for the loss function, a Learning Rate Scheduler to get better results, and Early Stopping to prevent overfitting
+- Evaluated the model on loss and Intersection over Union (IOU)
+- Achieved 0.97 IOU on the validation dataset
+- Plotted predictions on the sample images with the color mapping and compared results to ground truth
