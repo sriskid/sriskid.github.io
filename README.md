@@ -29,3 +29,26 @@
 - Experimented with exploration vs. exploitation to allow the model to maximize rewards while also finding new strategies through random actions
 - Plotted the results in real-time to show the models score over the course of thousands of games
 
+### Car Damage Severity Classification
+**Tags: Deep Learning, PyTorch, Multiclass Image Classification, Data Visualization, Transfer Learning**
+- Utilized EfficientNetB7 to classify damage severity of car damages (minor, moderate, severe)
+- Fine tuned the pretrained model to suit the image classification
+- Utilized Data Augmentation to increase the number of images and address overfitting
+- Achieved 0.75 validation accuracy
+
+### Intel Image Classification
+**Tags: Deep Learning, Tensorflow, Multiclass Image Classification, OpenCV, Data Visialization, Transfer Learning**
+- Utilized VGG16 pretrained model and fine tuned it to classify different objects in drone images (buildings, forest, glacier, mountain, sea, street)
+- Utilized an Image Data Generator to conserve memory and perform data augmentation to prevent overfitting
+- Utilized Early Stopping and a Learning Rate Scheduler to prevent overfitting
+- Achieved 0.93 accuracy on validation dataset
+- Evaluated the model by plotting the loss, accuracy, and confusion matrix
+- Tested the model on sample images
+
+### Vehicle Damage Classification
+**Tags: Deep Learning, Data Visualization, OpenCV, PyTorch, Multiclass Image Classification, Transfer Learning**
+- Utilized VGG16 pretrained model and fine tuned it to classift different types of car damage from images (crack, scratch, flat tire, dent, shattered glass, broken lamp)
+- Utilized Early Stopping and a Learning Rate Scheduler to prevent overfitting
+- Achieved 0.95 accuracy on validation dataset
+- Evaluated the model by plotting the loss, accuracy, and confusion matrix
+- Made predictions on sample images
