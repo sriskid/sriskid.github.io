@@ -94,3 +94,10 @@
 - Performed Exploratory Data Analysis to view trends in prices, reviews, operating systems, and ratings
 - Vectorized the descriptions using CountVectorizer and calculating cosine similarities among the vectorized descriptions
 - Output returns the games with the top 5 cosine similarities to the description of one's favorite game
+
+### LEGO Minifigurines Generative Adversarial Network (GAN)
+**Tags: Deep Learning, Generative AI, GANs, PyTorch**
+- Created a GAN to generate images of minifigurines
+- Utilized a generator to generate images (256 x 256 x 3) from a latent vector of dimension 128 and a discriminator to determine whether generated images are fake or not
+- Trained for 3000 epochs and balanced the loss values of both adversarial models
+- Plotted generated images from random latent vectors
