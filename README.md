@@ -14,3 +14,5 @@
 - Trained Logistic Regression, Decision Tree, Random Forest, and XGBoost Classifiers and compared performances and speeds
 - Investigated feature reductions based on the top 5 important features from the Random Forest and PCA and compared performances
 
+### Stock Price Prediction
+
