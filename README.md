@@ -71,3 +71,19 @@
 - Evaluated the model on loss and Intersection over Union (IOU)
 - Achieved 0.97 IOU on the validation dataset
 - Plotted predictions on the sample images with the color mapping and compared results to ground truth
+
+### Ecommerce Text Classification
+**Tags: Machine Learning, Deep Learning, Natural Language Processing, Scikit-Learn, Tensorflow**
+- Created three models to classify descriptions into four labels (Household, Books, Electronics, and Clothing & Accessories)
+- Vectorized the descriptions using a Bag-of-Words approach
+- Utilized two classical machine learning models (Naive Bayes and SVM) to classify the descriptions and compared speed and accuracy
+- For a deep learning approach, the tensorflow tokenizer was used along with padding to process the text, followed by a custom model to output the label
+- The final results were that the Naive Bayes model took the least amount of time for 0.94 accuracy on the validation data and the Deep Learning model took the most with an acccuracy of 0.98 on the validation dataset
+
+### Twitter Sentiment Analysis
+**Tags: Machine Learning, Deep Learning, Natural Language Processing, Scikit-Learn, Tensorflow**
+- Created six models to classify tweets by sentiment (Irrelevant, Negative, Neutral, Positive)
+- Vectorized the descriptions using a Bag-of-Words approach for the ML models
+- Utilized four classical ML models (Naive Bayes, SVM, Decision Tree, Random Forest, and XGBoost) and a Deep Learning model to compare speed/accuracy
+- For a deep learning approach, the tensorflow tokenizer was used along with padding to process the text, followed by a custom model to output the label, and evaluated the model by loss and accuracy
+- A final comparison showed that the Naive Bayes model was the fastest and had 0.83 validation accuracy, the SVM model took the longest with 0.94 validation accuracy, the XGBoost model performed the worst with 0.76 validation accuracy, and the deep learning model performed the best with 0.99 validation accuracy and took the third least amount of time
