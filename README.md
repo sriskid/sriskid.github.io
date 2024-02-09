@@ -87,3 +87,10 @@
 - Utilized four classical ML models (Naive Bayes, SVM, Decision Tree, Random Forest, and XGBoost) and a Deep Learning model to compare speed/accuracy
 - For a deep learning approach, the tensorflow tokenizer was used along with padding to process the text, followed by a custom model to output the label, and evaluated the model by loss and accuracy
 - A final comparison showed that the Naive Bayes model was the fastest and had 0.83 validation accuracy, the SVM model took the longest with 0.94 validation accuracy, the XGBoost model performed the worst with 0.76 validation accuracy, and the deep learning model performed the best with 0.99 validation accuracy and took the third least amount of time
+
+### Simple Steam Content-Based Recommendation System
+**Tags: Data Science, Recommendation System, Natural Language Processing, Scikit-Learn, Exploratory Data Analysis**
+- Created a simple content-based recommendation system to recommend games from the Steam game library
+- Performed Exploratory Data Analysis to view trends in prices, reviews, operating systems, and ratings
+- Vectorized the descriptions using CountVectorizer and calculating cosine similarities among the vectorized descriptions
+- Output returns the games with the top 5 cosine similarities to the description of one's favorite game
